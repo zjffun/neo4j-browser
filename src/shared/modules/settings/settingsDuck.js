@@ -78,7 +78,7 @@ const initialState = {
   cmdchar: ':',
   maxHistory: 30,
   theme: AUTO_THEME,
-  initCmd: ':play start',
+  initCmd: ':sysinfo',
   initialNodeDisplay: 300,
   maxNeighbours: 100,
   showSampleScripts: true,

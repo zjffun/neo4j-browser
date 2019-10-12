@@ -166,18 +166,18 @@ export function App (props) {
               <Render if={loadExternalScripts}>
                 <Intercom appID='lq70afwx' />
               </Render>
-              <Render if={syncConsent && loadExternalScripts && loadSync}>
+              {/* <Render if={syncConsent && loadExternalScripts && loadSync}>
                 <BrowserSyncInit
                   authStatus={browserSyncAuthStatus}
                   authData={browserSyncMetadata}
                   config={browserSyncConfig}
                 />
-              </Render>
+              </Render> */}
               <StyledApp>
                 <StyledBody>
-                  <ErrorBoundary>
-                    <Sidebar openDrawer={drawer} onNavClick={handleNavClick} />
-                  </ErrorBoundary>
+                  {/* <ErrorBoundary>
+                    <Sidebar openDrawer={drawer} onNavClick={handleNavClick}/>
+                  </ErrorBoundary> */}
                   <StyledMainWrapper>
                     <Main
                       cmdchar={cmdchar}

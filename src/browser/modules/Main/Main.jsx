@@ -85,12 +85,12 @@ const Main = React.memo(function Main (props) {
           Server is taking a long time to respond...
         </WarningBanner>
       </Render>
-      <Render if={props.useBrowserSync}>
+      {/* <Render if={props.useBrowserSync}>
         <SyncReminderBanner />
       </Render>
       <Render if={props.useBrowserSync}>
         <SyncConsentBanner />
-      </Render>
+      </Render> */}
       <ErrorBoundary>
         <Stream />
       </ErrorBoundary>
