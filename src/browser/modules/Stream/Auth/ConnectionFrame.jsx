@@ -54,7 +54,7 @@ export class ConnectionFrame extends Component {
         }
         contents={
           <React.Fragment>
-            <StyledConnectionAside>
+            {/* <StyledConnectionAside>
               <Render if={!this.state.success}>
                 <div>
                   <H3>Connect to Neo4j</H3>
@@ -69,7 +69,7 @@ export class ConnectionFrame extends Component {
                   <Lead>Nice to meet you.</Lead>
                 </div>
               </Render>
-            </StyledConnectionAside>
+            </StyledConnectionAside> */}
             <StyledConnectionBodyContainer>
               <ConnectionForm
                 {...this.props}
